@@ -1,0 +1,30 @@
+# Ignore binary files
+bin/
+
+# Ignore object files
+obj/
+
+# Ignore build artifacts
+*.exe
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore editor-specific files
+*.swp
+*.swo
+*~
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*.bak
+*.old
+*.orig
+
+# Ignore directories created by certain editors/IDEs
+.vscode/
+.idea/
