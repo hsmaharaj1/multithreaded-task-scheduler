@@ -38,7 +38,7 @@ void ThreadPool::workerFunction() {
     while (running) {
         try {
             Task task = taskQueue.pop();
-            if (running) {  // Check again to handle the case of dummy task
+            if (running) {
                 task.execute();
             }
         } catch (const exception& e) {

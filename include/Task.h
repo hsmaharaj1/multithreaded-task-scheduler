@@ -8,7 +8,6 @@ public:
     void execute();
     int getPriority() const;
 
-    // Add these lines to declare both operators
     bool operator<(const Task& other) const;
     bool operator>(const Task& other) const;
 

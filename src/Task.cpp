@@ -12,7 +12,6 @@ int Task::getPriority() const {
     return priority;
 }
 
-// Implement both operators
 bool Task::operator<(const Task& other) const {
     return priority < other.priority;
 }
